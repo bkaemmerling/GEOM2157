@@ -114,31 +114,5 @@ for footprint in FP_features:
         TPZbuffer.updateFeature(TPZ)
 TPZbuffer.commitChanges()
 
-'''symbol = QgsPolygonSymbol.createSimple({'color': 'red'})
-TPZbuffer.renderer().setSymbol(symbol)
-TPZbuffer.triggerRepaint()'''
 
-'''layer_base = iface.activeLayer()
-mySymbol1=QgsFillSymbolV2.createSimple({'color':'#289e26',
-    'color_border':'#289e26',
-    'width_border':'1',
-    'style':'no'})
-myRenderer = layer_base.rendererV2()
-myRenderer.setSymbol(mySymbol1)
-layer_base.triggerRepaint()'''
-
-
-'''myVectorLayer = iface.activeLayer()
-myRenderer  = myVectorLayer.rendererV2()
-
-if myVectorLayer.geometryType() == QGis.Polygon:
-    mySymbol1 = QgsFillSymbolV2.createSimple({'color':'255,0,0,0',
-        'color_border':'#000000',
-        'width_border':'0.6'})
-
-myRenderer.setSymbol(mySymbol1)
-myVectorLayer.triggerRepaint()
-#iface.legendInterface().refreshLayerSymbology(myVectorLayer
-
-myVectorLayer.rendererV2().symbols()[0].symbolLayer(0).properties()'''
     
